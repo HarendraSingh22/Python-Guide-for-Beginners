@@ -12,5 +12,5 @@ if __name__ == '__main__':
     number = input("Enter the number : ")
     number = int(number)
     factorial = get_factorial(number)
-    print ("The factorial of " + str(number) + " is = " + str(factorial))
+    print ("The factorial of " + number+ " is = " + factorial)
 
