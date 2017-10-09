@@ -1,7 +1,7 @@
-# Python-Guide-for-Beginners
-A guide for Beginners in Python to refer
+# A Beginner's Guide to Python
 
-Everyone can contribute here simple programs they know in Python so that newbies learning Python can refer to them and see how Python code looks and how simple it is to code in Python.
+This is an open-source guide for beginners in Python. 
 
+Everyone is welcome to contribute simple Python scripts so that newbies can refer to them and see how easy it is to code in Python. 
 
-We also encourage everyone reading this to goto issues tab and create atleast 1 issue for a beginner
+We also encourage everyone reading this to go to [Issues](https://github.com/HarendraSingh22/Python-Guide-for-Beginners/issues) and create at least 1 issue for a beginner.
