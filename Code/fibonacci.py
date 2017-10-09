@@ -1,10 +1,8 @@
-def fibonacci(n):
-    if(n <= 1):
-        return n
-    else:
-        return(fibonacci(n-1) + fibonacci(n-2))
-n = int(input("Enter number of terms:"))
-print("Fibonacci sequence:")
+a,b = 0,1
+n= int(input("Enter number of terms : "))
+print(a)
 for i in range(n):
-    print(fibonacci(i))
+    a , b = b , a+b;
+    print (a)
+
 
