@@ -23,4 +23,4 @@ def PascalsTriangle(n): # (n + 1) rows to be printed. [0th - 5th]
 			i += 1
 
 
-PascalsTriangle(1)
+PascalsTriangle(10)
