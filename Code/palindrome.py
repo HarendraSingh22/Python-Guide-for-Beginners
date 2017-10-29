@@ -13,7 +13,7 @@ def isPalindrome(s):
  
  
 # Driver code
-s = raw_input()
+s = raw_input("Enter the string:")
 ans = isPalindrome(s)
  
 if ans == 1:
