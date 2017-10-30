@@ -2,6 +2,7 @@
 
 def hcf(x, y): # x and y are two integers you can input
   # smaller will be used to store the variable for running the shorter loop
+  #comment
   ans = 1
   if (x < y):
     smaller = x
