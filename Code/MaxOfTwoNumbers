@@ -1,0 +1,7 @@
+x, y = input("Enter first number: "), input("Enter second number: ")
+if x == y:
+    print "Both numbers are equal"
+elif x > y:
+    print str(x) + " is greater than " + str(y)
+else:
+    print str(y) + " is greater than " + str(x)
