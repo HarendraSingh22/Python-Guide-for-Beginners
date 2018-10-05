@@ -1,0 +1,6 @@
+a=int(input("enter a number"))
+n=int(input("enter the limit"))
+i=0
+while (i<=n):
+	print(a,"x",i,"=",a*i)
+	i=i+1
