@@ -1,0 +1,7 @@
+c_temp=float(input("enter temperature in degree celcius"))
+farenheit=float(c_temp)*9/5+32
+print ("temperature in farenheit=",farenheit)
+f_temp=input("enter temperature in farenheit")
+digree_celcius=5/9*(float(f_temp)-32)
+print("temperature in celcius=",digree_celcius)
+
