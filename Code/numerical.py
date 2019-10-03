@@ -1,0 +1,45 @@
+import numpy as np
+a = np.array([1,2,3])
+print(a)
+a = np.array([[1,2],[3,4]])
+print(a)
+a.shape
+a.size
+a.reshape(4,1)
+a.reshape(1,4)
+a = np.arange(24)
+print(a)
+a.shape
+a.reshape(24,1)
+a.reshape(1,24)
+a.reshape(4,6)
+print(a.reshape(3,2,4))
+a.ndim
+a.reshape(3,2,4).ndim
+a = np.zeroes([3,2])
+print(a)
+a = np.zeroes([3,2],dtype=int)
+print(a)
+a = np.zeroes([3,2],dtype=complex)
+print(a)
+a = np.ones([3,2],dtype=int)
+print(a)
+a = np.eye(5)
+a=np.full([3,2],7)
+print(a)
+a = np.random.randint(4)
+print(a)
+a = np.array([[1,2],[3,4]])
+b = np.empty_like(a)
+print(b)
+a = [1,2,3,4,5,6,7,8,9,10]
+b = np.delete(a,[2,4,6]) #deletes the indexed value
+print(b)
+a = np.array([[1,2,3],[4,5,6],[7,8,9]])
+len(a)
+b = np.delete(a,[1])
+print(b)
+b = np.delete(a,[1],axis=0)
+print(b)
+b = np.delete(a,[1],axis=1)
+print(b)
