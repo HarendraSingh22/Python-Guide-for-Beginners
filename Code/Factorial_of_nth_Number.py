@@ -10,4 +10,5 @@ def Fibonacci(n):
         return Fibonacci(n-1)+Fibonacci(n-2) 
   
 # Driver Program 
-print(Fibonacci(100)) 
+n = int(input("Enter Number: "))  
+print(Fibonacci(n)) 
