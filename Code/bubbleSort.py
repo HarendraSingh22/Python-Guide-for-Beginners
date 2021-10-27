@@ -16,10 +16,15 @@ def bubbleSort(arr):
                 arr[j], arr[j+1] = arr[j+1], arr[j]
  
 # Driver code to test above
-arr = [64, 34, 25, 12, 22, 11, 90]
- 
+#arr = [64, 34, 25, 12, 22, 11, 90]
+#instead of using a fixed size and fixed values/elements
+#you can ask user to give the number as much he want 
+
+arr = list(map(int,input().split()))
+
+
 bubbleSort(arr)
  
 print ("Sorted array is:")
 for i in range(len(arr)):
-    print ("%d" %arr[i]), 
+    print(f"{arr[i]}")
